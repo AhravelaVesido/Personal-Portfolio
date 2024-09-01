@@ -160,6 +160,7 @@ html {
         margin: 0;
         font-size: 20px;
         text-align: justify;
+        gap: 2;
     }
     
     #welcome-section{
