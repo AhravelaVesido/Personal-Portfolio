@@ -157,6 +157,11 @@ html {
         width: 100%;
     }
 
+    projects{
+        width: 50%;
+    }
+    
+
     .project-tile {
         width: 90%;
     }
