@@ -152,14 +152,15 @@ html {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        width: 30%;
-        font-size: 15px;
+        width: 70%;
+        height: 30%;
+        font-size: 10px;
     }
     
     #welcome-section{
         width: 100%;
-        height: 30vh;
-        padding: 0;
+        height: 40vh;
+        padding: 10px;
         margin:0;
         font-size: 30px;
     }
