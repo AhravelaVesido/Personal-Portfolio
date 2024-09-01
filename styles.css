@@ -155,20 +155,21 @@ html {
         width: 80%;
         height: 5%;
     }
-   #navbar ul li {
-    padding: 10px 0; /* Adds vertical padding */
-    margin: 10px 0; /* Adds space between each list item */
-    font-size: 20px;
-    display: flex;
-    justify-content: center; /* Centers the content within each item */
-    align-items: center;
-}
+    #navbar ul li{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-itemns: center;
+        
+    }
 
     
     #welcome-section{
         width: 100%;
-        height: 50vh;
-        padding: 10px;
+        height: 30vh;
+        padding: 0;
         margin:0;
         font-size: 30px;
     }
