@@ -163,7 +163,9 @@ html {
     }
 
     #projects{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .project-tile {
         width: 90%;
