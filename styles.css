@@ -150,19 +150,19 @@ html {
     
       #navbar ul {
         display: flex;
-        flex-direction: row; /* Arrange items in a row */
+        flex-direction: row; 
         align-items: flex-start;
         width: 80%;
         height: 5%;
     }
 
     #navbar ul li {
-        padding: 0;
-        margin: 0;
+        padding: 1px 1px;
+        margin: 1px 1px;
         font-size: 20px;
         display: flex;
         justify-content: center;
-        align-items: center; /* Corrected the typo */
+        align-items: center; 
     }
 
     #welcome-section {
