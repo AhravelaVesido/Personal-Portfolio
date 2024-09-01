@@ -154,7 +154,8 @@ html {
         align-items: flex-start;
         width: 80%;
         height: 5%;
-        font-size: 7px;
+        font-size: 2px;
+        text-align: justify;
     }
     
     #welcome-section{
