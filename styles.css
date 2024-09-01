@@ -149,12 +149,14 @@ html {
 @media ( max-width: 795px) {
     
     #navbar ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         width: 100%;
     }
     
-
+    #welcome-section{
+           width: 100%;
+    }
     .project-tile {
         width: 90%;
     }
