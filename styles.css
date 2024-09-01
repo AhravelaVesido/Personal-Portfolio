@@ -147,15 +147,23 @@ html {
 
 /* Media query for smaller devices */
 @media ( max-width: 795px) {
-    
+    html{
+        max-width: 100%;
+    }
     #navbar ul {
         flex-direction: row;
         align-items: flex-start;
-        width: 100%;
+        width: 80%;
     }
     
     #welcome-section{
-           width: 100%;
+        width: 100%;
+        padding: 0;
+        margin:0;
+    }
+
+    #projects{
+        
     }
     .project-tile {
         width: 90%;
@@ -170,7 +178,7 @@ html {
     }
 
     .social-links {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px; /* Space between social media icons for smaller screens */
     }
 
