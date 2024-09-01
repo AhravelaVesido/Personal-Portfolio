@@ -157,7 +157,7 @@ html {
     }
 
     #navbar ul li {
-        padding: 1px 1px;
+        padding: 2px 1px;
         margin: 1px 1px;
         font-size: 20px;
         display: flex;
