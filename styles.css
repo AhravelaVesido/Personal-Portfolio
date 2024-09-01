@@ -146,9 +146,10 @@ html {
 }
 
 /* Media query for smaller devices */
-@media (max-width: 600px, min-width: 1200px) {
+@media (min-width: 600px, max-width: 1200px) {
     html{
         font-size: 1.5rem;
+        
     }
     #navbar ul {
         flex-direction: column;
