@@ -154,7 +154,9 @@ html {
         align-items: flex-start;
         width: 80%;
         height: 5%;
-        font-size: 2px;
+    }
+    #navbar ul li{
+        font-size: 10px;
         text-align: justify;
     }
     
