@@ -148,32 +148,31 @@ html {
 /* Media query for smaller devices */
 @media ( max-width: 795px) {
     
-    #navbar ul {
+      #navbar ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: row; /* Arrange items in a row */
         align-items: flex-start;
         width: 80%;
         height: 5%;
     }
-    #navbar ul li{
+
+    #navbar ul li {
         padding: 0;
         margin: 0;
         font-size: 20px;
         display: flex;
         justify-content: center;
-        align-itemns: center;
-        
+        align-items: center; /* Corrected the typo */
     }
 
-    
-    #welcome-section{
+    #welcome-section {
         width: 100%;
         height: 30vh;
         padding: 0;
-        margin:0;
+        margin: 0;
         font-size: 30px;
     }
-
+    
     #projects{
         display: flex;
         justify-content: center;
