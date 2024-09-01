@@ -148,14 +148,14 @@ html {
 /* Media query for smaller devices */
 @media ( max-width: 795px) {
     #navbar ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         width: 100%;
     }
 
     #welcome-section {
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         padding: 0;
         margin: 0;
         font-size: 30px;
