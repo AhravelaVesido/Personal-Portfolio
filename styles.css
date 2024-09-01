@@ -146,7 +146,7 @@ html {
 }
 
 /* Media query for smaller devices */
-@media (min-width: 600px, max-width: 1200px) {
+@media (min-width: 600px, max-width: 2000px) {
     html{
         font-size: 1.5rem;
         
