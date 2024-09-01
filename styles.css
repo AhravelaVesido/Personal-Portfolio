@@ -147,21 +147,10 @@ html {
 
 /* Media query for smaller devices */
 @media ( max-width: 795px) {
-    
-      #navbar ul {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-evenly;
+    #navbar ul {
+        flex-direction: column;
         align-items: flex-start;
-        width: 80%;
-        height: 5%;
-    }
-
-    #navbar ul li {
-        padding: 0;
-        margin: 2px 2px;
-        font-size: 20px;
-        
+        width: 100%;
     }
 
     #welcome-section {
