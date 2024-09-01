@@ -1,0 +1,178 @@
+
+html {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, verdana; 
+    background: linear-gradient(120deg, #003366, #4F6D7A);
+    border: 7px solid black;
+    max-width: 100%;
+}
+
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+}
+
+#navbar ul {
+   display: flex;
+   justify-content: flex-start;
+   padding: auto;
+   margin: auto;
+   background: linear-gradient(120deg, #3E2723, #1E90FF, #3E2723);
+   position: fixed;
+   border: 2px solid coral;
+   width: 50vw;
+}
+
+#navbar ul li {
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-evenly;
+   padding: 10px;
+   margin: 10px;
+   font-size: 25px;
+}
+
+.nav-link {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;  
+   font-weight: bold;
+}
+
+.nav-link:hover {
+   color: black;
+}
+
+#welcome-section {
+    background: linear-gradient(-120deg, black, #003366, #a0a0a0, #1E90FF, black);
+    padding: 16%;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    border: 2px solid coral;
+}
+
+#welcome-section p {
+    color: white;
+    font-style: italic;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.project-tile {
+   background: gray;
+   border: 2px solid coral;
+   padding: 10px;
+   margin: 10px;
+   width: 50%;
+   height: 100%;
+   text-align: center;
+}
+
+.project-tile p {
+   text-decoration: none;
+   cursor: pointer;
+   background: black;
+   color: white;
+   padding: 10px;
+   margin: 0;
+}
+
+.project-tile p:hover {
+   color: #A9A9A9;
+   font-style: italic;
+}
+
+/* General styling for the contact section */
+#contact-section {
+    background: gray;
+    padding: 20px 100px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Styling for the heading */
+#contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the social links container */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between social media icons */
+   
+}
+
+/* Styling for each social link */
+.social-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+/* Styling for the images inside the social links */
+.social-link img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Circular icons */
+    border: 2px solid white;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effect for social links */
+.social-link:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+    border-color: blue; /* Change border color on hover */
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    #navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .project-tile {
+        width: 90%;
+    }
+
+    #contact-section {
+        padding: 30px 10px;
+    }
+    
+    #contact-section h2 {
+        font-size: 28px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 15px; /* Space between social media icons for smaller screens */
+    }
+
+    .social-link img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
